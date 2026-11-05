@@ -1,0 +1,56 @@
+[
+    {
+        "_id": "v1",
+        "nombre": "Suculenta",
+        "tipo": "Interior",
+        "riego": "Cada 10 días",
+        "precio": 12000,
+        "emoji": "🪴",
+        "descripcion": "Ideal para escritorios, casi no necesita agua."
+    },
+    {
+        "_id": "v2",
+        "nombre": "Helecho",
+        "tipo": "Interior",
+        "riego": "Cada 3 días",
+        "precio": 25000,
+        "emoji": "🌿",
+        "descripcion": "Purifica el aire y ama la humedad."
+    },
+    {
+        "_id": "v3",
+        "nombre": "Girasol",
+        "tipo": "Exterior",
+        "riego": "Todos los días",
+        "precio": 8000,
+        "emoji": "🌻",
+        "descripcion": "Sigue al sol y llena de color el jardín."
+    },
+    {
+        "_id": "v4",
+        "nombre": "Cactus",
+        "tipo": "Interior",
+        "riego": "Cada 15 días",
+        "precio": 15000,
+        "emoji": "🌵",
+        "descripcion": "La planta más resistente del vivero."
+    },
+    {
+        "_id": "v5",
+        "nombre": "Orquídea",
+        "tipo": "Interior",
+        "riego": "Cada 7 días",
+        "precio": 45000,
+        "emoji": "🌸",
+        "descripcion": "Elegante, sus flores duran meses."
+    },
+    {
+        "_id": "v6",
+        "nombre": "Lavanda",
+        "tipo": "Exterior",
+        "riego": "Cada 4 días",
+        "precio": 18000,
+        "emoji": "💜",
+        "descripcion": "Aromática y atrae abejas."
+    }
+]

@@ -1,0 +1,248 @@
+/* Base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background: #f6faf6;
+  color: #2b2b2b;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h2 {
+  color: #1e4528;
+}
+
+a {
+  color: #2f6b3f;
+}
+
+/* Menú */
+.menu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.menu strong {
+  margin-right: auto;
+  color: #2f6b3f;
+  font-size: 1.2rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+}
+
+.menu a:hover {
+  background: #e8f3ea;
+}
+
+.menu a.active {
+  background: #2f6b3f;
+  color: white;
+}
+
+/* Inicio */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #2f6b3f, #1e4528);
+  color: white;
+  border-radius: 12px;
+}
+
+.hero h2 {
+  color: white;
+}
+
+.hero a {
+  color: white;
+  font-weight: bold;
+}
+
+/* Tarjetas */
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.tarjeta {
+  background: white;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.tarjeta:hover {
+  transform: translateY(-3px);
+}
+
+.tarjeta h3 {
+  margin: 0.5rem 0;
+}
+
+.emoji {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.precio {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2f6b3f;
+}
+
+/* Detalle */
+.detalle {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Botones */
+.filtros {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  background: #2f6b3f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e4528;
+}
+
+/* Celular */
+@media (max-width: 600px) {
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu strong {
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f6faf6;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  box-shadow: 0 2px 8px #0001;
+}
+
+.menu strong {
+  margin-right: auto;
+  color: #2f6b3f;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+}
+
+.menu a.active {
+  background: #2f6b3f;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #2f6b3f;
+  color: white;
+  border-radius: 12px;
+}
+
+.hero a {
+  color: white;
+  font-weight: bold;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.tarjeta {
+  background: white;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #0001;
+}
+
+.emoji {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.precio {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2f6b3f;
+}
+
+.detalle {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.filtros {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  background: #2f6b3f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+a {
+  color: #2f6b3f;
+}
